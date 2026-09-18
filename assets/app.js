@@ -1,5 +1,5 @@
 const ATLAS_BASE='/spatial-methods-atlas-site';
-const ATLAS_VERSION='f83eb601d8fc';
+const ATLAS_VERSION='ccf3fd24780c';
 'use strict';
 const $=s=>document.querySelector(s), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const access={direct:'Direct access',gated:'Approval / terms required',unknown:'Unverified',unavailable:'Unavailable',not_applicable:'Not applicable'};

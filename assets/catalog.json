@@ -11454,11 +11454,18 @@
         }
       ],
       "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "status": "approved",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-022-28020-5/MediaObjects/41467_2022_28020_Fig1_HTML.png",
+        "source_url": "https://www.nature.com/articles/s41467-022-28020-5/figures/1",
+        "rights": "CC BY 4.0",
+        "alt": "SpatialDecon Figure 1 showing its deconvolution workflow and methodological advances",
+        "type": "publication_figure",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Patrick Danaher, Youngmi Kim et al. (2022), Figure 1.",
+        "changes": "Displayed without modification.",
+        "evidence_ids": [
+          "batch017-spatialdecon-figure1"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -25165,6 +25172,15 @@
       "url": "https://www.nature.com/articles/s41467-025-65658-3/figures/1",
       "locator": "Figure 1 and article Rights and permissions section",
       "note": "The open-access article includes Figure 1 under CC BY-NC-ND 4.0 and does not identify a separate third-party credit for the figure.",
+      "kind": "licensed_figure",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch017-spatialdecon-figure1",
+      "entry_id": "spatialdecon",
+      "url": "https://www.nature.com/articles/s41467-022-28020-5/figures/1",
+      "locator": "Figure 1 and article Rights and permissions section",
+      "note": "The article applies CC BY 4.0 to its images unless separately credited; Figure 1 has no separate third-party exclusion and is displayed without modification.",
       "kind": "licensed_figure",
       "checked_on": "2026-09-18"
     }
