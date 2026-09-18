@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-label="Functional schematic for SpatialDE2">
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#d8e0ec"/></pattern></defs>
+<rect width="600" height="260" fill="#f0f4fa"/><rect width="600" height="260" fill="url(#grid)"/>
+<text x="300" y="35" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="14" fill="#202a3b">SpatialDE2</text>
+<path d="M150 126H245M355 126H450" stroke="#376f8a" stroke-width="2" opacity=".55"/>
+<path d="M438 118l12 8-12 8M233 118l12 8-12 8" fill="none" stroke="#376f8a" stroke-width="2"/>
+<rect x="45" y="84" width="105" height="84" rx="12" fill="white" stroke="#d3ddeb"/><text x="97" y="131" text-anchor="middle" font-family="sans-serif" font-size="11" letter-spacing="1" fill="#376f8a">INPUT</text>
+<rect x="245" y="70" width="110" height="112" rx="15" fill="white" stroke="#376f8a" stroke-width="2"/><text x="300" y="121" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#202a3b">METHOD</text><text x="300" y="141" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#376f8a">METHOD</text>
+<rect x="450" y="84" width="105" height="84" rx="12" fill="white" stroke="#d3ddeb"/><text x="502" y="131" text-anchor="middle" font-family="sans-serif" font-size="11" letter-spacing="1" fill="#376f8a">OUTPUT</text>
+<text x="300" y="224" text-anchor="middle" font-family="sans-serif" font-size="10" letter-spacing=".7" fill="#69778d">SPATIALLY VARIABLE FEATURES</text></svg>
