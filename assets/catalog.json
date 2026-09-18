@@ -1004,11 +1004,19 @@
         }
       ],
       "primary_publication_id": "primary",
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/YeLiu-Lab/CANDIES",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "MIT",
+        "evidence_ids": [
+          "batch013-candies-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -2172,7 +2180,13 @@
         }
       ],
       "primary_publication_id": "primary",
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/ericcombiolab/SpaMV",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -3200,7 +3214,13 @@
         }
       ],
       "primary_publication_id": "primary",
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/kpcoleman/miso",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -4405,6 +4425,11 @@
           "url": "https://www.nature.com/articles/s41467-025-65658-3",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/yuqiyuqitan/SPACEc",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
@@ -4433,11 +4458,18 @@
         }
       ],
       "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "status": "approved",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-025-65658-3/MediaObjects/41467_2025_65658_Fig1_HTML.png",
+        "source_url": "https://www.nature.com/articles/s41467-025-65658-3/figures/1",
+        "rights": "CC BY-NC-ND 4.0",
+        "alt": "SPACEc workflow from image extraction through segmentation, annotation and spatial analysis",
+        "type": "publication_figure",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "attribution": "Tan et al., Nature Communications (2025)",
+        "changes": "Displayed without modification.",
+        "evidence_ids": [
+          "batch016-spacec-image"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -4652,12 +4684,19 @@
           "url": "https://link.springer.com/article/10.1186/s13059-025-03565-y",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/bhuvad/SpaNorm",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch013-spanorm-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -4680,11 +4719,18 @@
         }
       ],
       "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "status": "approved",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1186%2Fs13059-025-03565-y/MediaObjects/13059_2025_3565_Fig1_HTML.png",
+        "source_url": "https://link.springer.com/article/10.1186/s13059-025-03565-y/figures/1",
+        "rights": "CC BY-NC-ND 4.0",
+        "alt": "SpaNorm Figure 1 explaining spatially aware normalization and its workflow",
+        "type": "publication_figure",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "attribution": "Agus Salim, Dharmesh D. Bhuva et al. (2025), Figure 1.",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "batch013-spanorm-figure1"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -9008,12 +9054,19 @@
           "url": "https://doi.org/10.1038/s41592-023-01909-9",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/scverse/scvi-tools",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "BSD-3-Clause",
+        "evidence_ids": [
+          "batch013-multivi-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -9481,6 +9534,11 @@
           "url": "https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00156-4",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/tansey-lab/bayestme",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
@@ -9645,6 +9703,11 @@
         {
           "url": "https://www.nature.com/articles/s41586-023-06464-z",
           "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/LaughneyLab/ContactTracing_tutorial",
+          "type": "code",
           "checked_on": "2026-09-18"
         }
       ],
@@ -10857,12 +10920,19 @@
           "url": "https://doi.org/10.1038/s41587-022-01272-8",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/scverse/scvi-tools",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "BSD-3-Clause",
+        "evidence_ids": [
+          "batch013-destvi-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -12300,12 +12370,19 @@
           "url": "https://doi.org/10.1101/2021.10.27.466045",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/PMBio/SpatialDE",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "MIT",
+        "evidence_ids": [
+          "batch014-spatialde2-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -12674,12 +12751,19 @@
           "url": "https://doi.org/10.1186/s13059-021-02404-0",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/xzhoulab/SPARK",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch014-spark-x-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -14005,12 +14089,19 @@
           "url": "https://doi.org/10.1186/s13059-020-02015-1",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/bioFAM/MOFA2",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "LGPL-3.0",
+        "evidence_ids": [
+          "batch013-mofa-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -14318,12 +14409,19 @@
           "url": "https://www.nature.com/articles/s41587-020-0591-3",
           "type": "primary_publication",
           "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/theislab/scvelo",
+          "type": "code",
+          "checked_on": "2026-09-18"
         }
       ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "BSD-3-Clause",
+        "evidence_ids": [
+          "batch014-scvelo-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -15520,18 +15618,28 @@
       "section_ids": [
         "08.1"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-basic-code"
+      ],
       "modalities": [],
       "spatial_usage": "support",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/marrlab/BaSiC",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "CC-BY-NC-ND-4.0",
+        "evidence_ids": [
+          "batch015-basic-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -15551,11 +15659,18 @@
         }
       ],
       "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "status": "approved",
+        "path": "https://raw.githubusercontent.com/marrlab/BaSiC/master/images/usage.png",
+        "source_url": "https://github.com/marrlab/BaSiC/blob/master/images/usage.png",
+        "rights": "CC BY-NC-ND 4.0",
+        "alt": "BaSiC correction of spatially uneven illumination and temporal background bleaching",
+        "type": "project_illustration",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "attribution": "Peng et al.; BaSiC project",
+        "changes": "Displayed without modification.",
+        "evidence_ids": [
+          "batch016-basic-image"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -15571,18 +15686,28 @@
       "section_ids": [
         "03.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-bass-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/zhengli09/BASS",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch015-bass-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -15681,18 +15806,28 @@
       "section_ids": [
         "04.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-c-side-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/dmcable/spacexr",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch015-c-side-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -15732,18 +15867,28 @@
       "section_ids": [
         "09.1"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-cardinal-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/Cardinalverse/Cardinal",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "Artistic-2.0",
+        "evidence_ids": [
+          "batch015-cardinal-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -15763,11 +15908,18 @@
         }
       ],
       "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "status": "approved",
+        "path": "https://raw.githubusercontent.com/Cardinalverse/Cardinal/devel/vignettes/Cardinal-class-diagram.png",
+        "source_url": "https://github.com/Cardinalverse/Cardinal/blob/devel/vignettes/Cardinal-class-diagram.png",
+        "rights": "Artistic License 2.0",
+        "alt": "Cardinal mass spectrometry imaging data class diagram",
+        "type": "project_illustration",
+        "license_url": "https://opensource.org/license/artistic-2-0",
+        "attribution": "Cardinalverse/Cardinal contributors",
+        "changes": "Displayed without modification.",
+        "evidence_ids": [
+          "batch016-cardinal-image"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -15895,14 +16047,22 @@
       "section_ids": [
         "08.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-catalyst-code"
+      ],
       "modalities": [],
       "spatial_usage": "support",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/HelenaLC/CATALYST",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -16069,11 +16229,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/YosefLab/Compass",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "BSD-3-Clause",
+        "evidence_ids": [
+          "batch014-compass-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -16179,11 +16347,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/zhouzilu/cTPnet",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch014-ctp-net-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -16396,14 +16572,27 @@
       "section_ids": [
         "10.4"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-geneformer-code"
+      ],
       "modalities": [],
       "spatial_usage": "unknown",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/epigen/Geneformer",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://huggingface.co/ctheodoris/Geneformer",
+          "type": "weights",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -16414,11 +16603,13 @@
           "id": "default",
           "name": "Geneformer",
           "released_on": null,
-          "access": "unknown",
-          "url": null,
+          "access": "direct",
+          "url": "https://huggingface.co/ctheodoris/Geneformer",
           "license": null,
           "license_evidence_ids": [],
-          "evidence_ids": [],
+          "evidence_ids": [
+            "batch015-geneformer-distribution"
+          ],
           "download_tested": false,
           "download_test_evidence_id": null
         }
@@ -16592,14 +16783,22 @@
       "section_ids": [
         "10.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-h-optimus-0-distribution"
+      ],
       "modalities": [],
       "spatial_usage": "unknown",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://huggingface.co/bioptimus/H-optimus-0",
+          "type": "weights",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -16610,11 +16809,15 @@
           "id": "default",
           "name": "H-optimus-0",
           "released_on": null,
-          "access": "unknown",
-          "url": null,
-          "license": null,
-          "license_evidence_ids": [],
-          "evidence_ids": [],
+          "access": "gated",
+          "url": "https://huggingface.co/bioptimus/H-optimus-0",
+          "license": "Apache-2.0",
+          "license_evidence_ids": [
+            "batch015-h-optimus-0-distribution"
+          ],
+          "evidence_ids": [
+            "batch015-h-optimus-0-distribution"
+          ],
           "download_tested": false,
           "download_test_evidence_id": null
         }
@@ -16656,7 +16859,7 @@
         "alt": null
       },
       "run_status": "not_tested",
-      "updated_on": "2026-09-17",
+      "updated_on": "2026-09-18",
       "summary_en": "Provides pretrained pathology representations; this entry tracks version 0 separately from later releases."
     },
     {
@@ -16934,11 +17137,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/YosefLab/Hotspot",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "MIT",
+        "evidence_ids": [
+          "batch014-hotspot-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -17167,11 +17378,16 @@
         }
       ],
       "image": {
-        "status": "missing",
+        "status": "pending_permission",
         "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "source_url": "https://www.10xgenomics.com/support/software/loupe-browser/latest",
+        "rights": "© 10x Genomics; prior written permission required for image reuse.",
+        "alt": "Loupe Browser product interface",
+        "type": "product_screenshot",
+        "evidence_ids": [
+          "batch009-loupe-browser-project",
+          "batch012-loupe-browser-image-rights"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -17187,18 +17403,28 @@
       "section_ids": [
         "09.1"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-maldiquant-code"
+      ],
       "modalities": [],
       "spatial_usage": "support",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/sgibb/MALDIquant",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch015-maldiquant-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -17299,18 +17525,28 @@
         "02.1",
         "04.4"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-mefisto-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/bioFAM/MOFA2",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "LGPL-3.0",
+        "evidence_ids": [
+          "batch015-mefisto-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -17591,11 +17827,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/saezlab/mistyR",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch014-misty-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -17699,14 +17943,22 @@
         "09.1",
         "09.3"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-msireader-distribution"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://msireader.com/",
+          "type": "official_documentation",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -17730,11 +17982,15 @@
         }
       ],
       "image": {
-        "status": "missing",
+        "status": "pending_permission",
         "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "source_url": "https://msireader.com/",
+        "rights": "MSiReader product imagery; reuse permission was not established during review.",
+        "alt": "MSiReader interface for mass spectrometry imaging analysis",
+        "type": "product_screenshot",
+        "evidence_ids": [
+          "batch015-msireader-distribution"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -17995,14 +18251,22 @@
       "section_ids": [
         "08.3"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-nimbus-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/angelolab/Nimbus",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -18046,14 +18310,22 @@
       "section_ids": [
         "08.3"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-pixie-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/angelolab/pixie",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -18159,14 +18431,22 @@
         "03.4",
         "04.3"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-quiche-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/angelolab/publications/tree/main/2024-Ranek_etal_QUICHE",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -18277,11 +18557,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/aertslab/pySCENIC",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch014-scenic-pyscenic-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -18328,7 +18616,13 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/aertslab/scenicplus",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -18523,11 +18817,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/gao-lab/GLUE",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "MIT",
+        "evidence_ids": [
+          "batch013-scglue-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -18673,19 +18975,27 @@
       "name": "SCiLS Lab",
       "aliases": [],
       "entry_type": "platform",
-      "status": "candidate",
+      "status": "curated",
       "primary_section_id": "09.3",
       "section_ids": [
         "09.3"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch012-scils-lab-vendor"
+      ],
       "modalities": [],
       "spatial_usage": "unknown",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/ms-software/scils-lab.html",
+          "type": "official_documentation",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -18697,23 +19007,29 @@
         {
           "stage": "inference",
           "checkpoint_id": null,
-          "gpu": "unknown",
+          "gpu": "recommended",
           "cpu_support": "unknown",
           "vram_gb": null,
           "batch_size": null,
           "precision": null,
           "input_scale": null,
           "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
+          "note": "The official system requirements recommend an OpenGL 4.0 graphics adapter with at least 4 GB GPU memory; this is not a measured inference minimum.",
+          "evidence_ids": [
+            "batch012-scils-lab-vendor"
+          ]
         }
       ],
       "image": {
-        "status": "missing",
+        "status": "pending_permission",
         "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "source_url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/ms-software/scils-lab.html",
+        "rights": "© Bruker; reuse permission was not established during review.",
+        "alt": "SCiLS Lab product interface for MALDI imaging analysis",
+        "type": "product_screenshot",
+        "evidence_ids": [
+          "batch012-scils-lab-vendor"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -18904,14 +19220,22 @@
       "section_ids": [
         "04.3"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-smide-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/smiDE",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -19137,11 +19461,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/ttgump/spaVAE",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "Apache-2.0",
+        "evidence_ids": [
+          "batch013-spamultivae-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -19190,11 +19522,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/xzhoulab/SPARK",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch014-spark-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -19411,18 +19751,28 @@
       "section_ids": [
         "05.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-spider-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/deepomicslab/SPIDER",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "MIT",
+        "evidence_ids": [
+          "batch015-spider-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -19462,18 +19812,28 @@
       "section_ids": [
         "09.1"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-sputnik-code"
+      ],
       "modalities": [],
       "spatial_usage": "direct",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/piplus2/SPUTNIK",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "batch015-sputnik-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -19752,14 +20112,22 @@
       "section_ids": [
         "10.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-titan-code"
+      ],
       "modalities": [],
       "spatial_usage": "unknown",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/mahmoodlab/TITAN",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -19816,7 +20184,7 @@
         "alt": null
       },
       "run_status": "not_tested",
-      "updated_on": "2026-09-17",
+      "updated_on": "2026-09-18",
       "summary_en": "Learns multimodal whole-slide representations beyond individual patch embeddings."
     },
     {
@@ -19837,11 +20205,19 @@
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/scverse/scvi-tools",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
-        "value": null,
-        "evidence_ids": []
+        "value": "BSD-3-Clause",
+        "evidence_ids": [
+          "batch014-totalvi-code"
+        ]
       },
       "checkpoints": [],
       "usage_profiles": [],
@@ -20090,14 +20466,27 @@
       "section_ids": [
         "10.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-virchow-code"
+      ],
       "modalities": [],
       "spatial_usage": "unknown",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/Paige-AI/paige-ml-sdk",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://huggingface.co/paige-ai/Virchow",
+          "type": "weights",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [],
       "code_license": {
         "value": null,
@@ -20108,11 +20497,13 @@
           "id": "default",
           "name": "Virchow",
           "released_on": null,
-          "access": "unknown",
-          "url": null,
+          "access": "gated",
+          "url": "https://huggingface.co/paige-ai/Virchow",
           "license": null,
           "license_evidence_ids": [],
-          "evidence_ids": [],
+          "evidence_ids": [
+            "batch015-virchow-distribution"
+          ],
           "download_tested": false,
           "download_test_evidence_id": null
         }
@@ -20154,7 +20545,7 @@
         "alt": null
       },
       "run_status": "not_tested",
-      "updated_on": "2026-09-17",
+      "updated_on": "2026-09-18",
       "summary_en": "Provides pathology image representations; versions have separate metadata."
     },
     {
@@ -20169,14 +20560,27 @@
       "section_ids": [
         "10.2"
       ],
-      "summary_evidence_ids": [],
+      "summary_evidence_ids": [
+        "batch015-virchow2-code"
+      ],
       "modalities": [],
       "spatial_usage": "unknown",
       "input_requirements": [],
       "outputs": [],
       "publications": [],
       "primary_publication_id": null,
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/Paige-AI/paige-ml-sdk",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://huggingface.co/paige-ai/Virchow2",
+          "type": "weights",
+          "checked_on": "2026-09-18"
+        }
+      ],
       "relations": [
         {
           "type": "version_of",
@@ -20192,11 +20596,13 @@
           "id": "default",
           "name": "Virchow2",
           "released_on": null,
-          "access": "unknown",
-          "url": null,
+          "access": "gated",
+          "url": "https://huggingface.co/paige-ai/Virchow2",
           "license": null,
           "license_evidence_ids": [],
-          "evidence_ids": [],
+          "evidence_ids": [
+            "batch015-virchow2-distribution"
+          ],
           "download_tested": false,
           "download_test_evidence_id": null
         }
@@ -20238,7 +20644,7 @@
         "alt": null
       },
       "run_status": "not_tested",
-      "updated_on": "2026-09-17",
+      "updated_on": "2026-09-18",
       "summary_en": "Provides pathology image representations; versions have separate metadata."
     },
     {
@@ -20290,11 +20696,16 @@
         }
       ],
       "image": {
-        "status": "missing",
+        "status": "pending_permission",
         "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
+        "source_url": "https://www.10xgenomics.com/support/software/xenium-explorer/latest",
+        "rights": "© 10x Genomics; prior written permission required for image reuse.",
+        "alt": "Xenium Explorer product interface",
+        "type": "product_screenshot",
+        "evidence_ids": [
+          "batch009-xenium-explorer-project",
+          "batch012-xenium-explorer-image-rights"
+        ]
       },
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
@@ -24287,6 +24698,474 @@
       "locator": "Figure 1 and article license",
       "note": "Figure 1 is covered by the article CC BY-NC-ND 4.0 license and is displayed unmodified, scaled to fit, with attribution.",
       "kind": "image_license",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch012-scils-lab-vendor",
+      "entry_id": "scils-lab",
+      "url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/ms-software/scils-lab.html",
+      "locator": "Official SCiLS software product page, SCiLS Lab and system requirements sections",
+      "note": "The official Bruker product page documents SCiLS Lab, its distribution, analysis functions, API and system requirements.",
+      "kind": "official_documentation",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch012-loupe-browser-image-rights",
+      "entry_id": "loupe-browser",
+      "url": "https://www.10xgenomics.com/support/software/cell-ranger/9.0/miscellaneous/cr-citations",
+      "locator": "Use of 10x Genomics trademarks and images",
+      "note": "10x Genomics requires prior written permission for reuse of its graphics and images unless otherwise permitted by law.",
+      "kind": "image_license",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch012-xenium-explorer-image-rights",
+      "entry_id": "xenium-explorer",
+      "url": "https://www.10xgenomics.com/support/software/cell-ranger/9.0/miscellaneous/cr-citations",
+      "locator": "Use of 10x Genomics trademarks and images",
+      "note": "10x Genomics requires prior written permission for reuse of its graphics and images unless otherwise permitted by law.",
+      "kind": "image_license",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-bayestme-code",
+      "entry_id": "bayestme",
+      "url": "https://github.com/tansey-lab/bayestme",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-destvi-code",
+      "entry_id": "destvi",
+      "url": "https://github.com/scverse/scvi-tools",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-spanorm-code",
+      "entry_id": "spanorm",
+      "url": "https://github.com/bhuvad/SpaNorm",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-candies-code",
+      "entry_id": "candies",
+      "url": "https://github.com/YeLiu-Lab/CANDIES",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-miso-code",
+      "entry_id": "miso",
+      "url": "https://github.com/kpcoleman/miso",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-mofa-code",
+      "entry_id": "mofa",
+      "url": "https://github.com/bioFAM/MOFA2",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-multivi-code",
+      "entry_id": "multivi",
+      "url": "https://github.com/scverse/scvi-tools",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-scglue-code",
+      "entry_id": "scglue",
+      "url": "https://github.com/gao-lab/GLUE",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-spamultivae-code",
+      "entry_id": "spamultivae",
+      "url": "https://github.com/ttgump/spaVAE",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-spamv-code",
+      "entry_id": "spamv",
+      "url": "https://github.com/ericcombiolab/SpaMV",
+      "locator": "Repository README, package identity and repository license metadata",
+      "note": "Repository identity, ownership and current archive/fork status were verified against its documentation and GitHub metadata.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch013-spanorm-figure1",
+      "entry_id": "spanorm",
+      "url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-025-03565-y.pdf",
+      "locator": "Article first page license statement and Figure 1",
+      "note": "The article applies CC BY-NC-ND 4.0 to its images unless otherwise credited; Figure 1 is used without modification.",
+      "kind": "image_license",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-hotspot-code",
+      "entry_id": "hotspot",
+      "url": "https://github.com/YosefLab/Hotspot",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-spark-code",
+      "entry_id": "spark",
+      "url": "https://github.com/xzhoulab/SPARK",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-spark-x-code",
+      "entry_id": "spark-x",
+      "url": "https://github.com/xzhoulab/SPARK",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-spatialde2-code",
+      "entry_id": "spatialde2",
+      "url": "https://github.com/PMBio/SpatialDE",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-contacttracing-code",
+      "entry_id": "contacttracing",
+      "url": "https://github.com/LaughneyLab/ContactTracing_tutorial",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-misty-code",
+      "entry_id": "misty",
+      "url": "https://github.com/saezlab/mistyR",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-ctp-net-code",
+      "entry_id": "ctp-net",
+      "url": "https://github.com/zhouzilu/cTPnet",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-scenic-pyscenic-code",
+      "entry_id": "scenic-pyscenic",
+      "url": "https://github.com/aertslab/pySCENIC",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-scenic-code",
+      "entry_id": "scenic",
+      "url": "https://github.com/aertslab/scenicplus",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-totalvi-code",
+      "entry_id": "totalvi",
+      "url": "https://github.com/scverse/scvi-tools",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-compass-code",
+      "entry_id": "compass",
+      "url": "https://github.com/YosefLab/Compass",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch014-scvelo-code",
+      "entry_id": "scvelo",
+      "url": "https://github.com/theislab/scvelo",
+      "locator": "Repository README, installation/citation section and license metadata",
+      "note": "The repository documentation and metadata identify the method or its maintained implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-mefisto-code",
+      "entry_id": "mefisto",
+      "url": "https://github.com/bioFAM/MOFA2",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "MEFISTO is implemented in the maintained MOFA2 repository.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-bass-code",
+      "entry_id": "bass",
+      "url": "https://github.com/zhengli09/BASS",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The repository identifies BASS as Bayesian Analytics for Spatial Segmentation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-quiche-code",
+      "entry_id": "quiche",
+      "url": "https://github.com/angelolab/publications/tree/main/2024-Ranek_etal_QUICHE",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The Angelo Lab publication repository contains the QUICHE implementation and analysis.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-c-side-code",
+      "entry_id": "c-side",
+      "url": "https://github.com/dmcable/spacexr",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "C-SIDE is implemented in the official spacexr repository.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-smide-code",
+      "entry_id": "smide",
+      "url": "https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/tree/Main/_code/smiDE",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "NanoString's analysis repository contains the smiDE implementation.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-spider-code",
+      "entry_id": "spider",
+      "url": "https://github.com/deepomicslab/SPIDER",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The publication identifies this repository as the SPIDER source code.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-basic-code",
+      "entry_id": "basic",
+      "url": "https://github.com/marrlab/BaSiC",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The repository contains the MATLAB and ImageJ implementations accompanying the BaSiC paper.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-catalyst-code",
+      "entry_id": "catalyst",
+      "url": "https://github.com/HelenaLC/CATALYST",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The repository is the official CATALYST cytometry analysis package.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-nimbus-code",
+      "entry_id": "nimbus",
+      "url": "https://github.com/angelolab/Nimbus",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The repository contains Nimbus training and validation code.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-pixie-code",
+      "entry_id": "pixie",
+      "url": "https://github.com/angelolab/pixie",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "This official static repository corresponds to the published Pixie pipeline; ark-analysis is the maintained successor.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-spacec-code",
+      "entry_id": "spacec",
+      "url": "https://github.com/yuqiyuqitan/SPACEc",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The repository identifies SPACEc as SPatial Analysis for CodEX data.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-cardinal-code",
+      "entry_id": "cardinal",
+      "url": "https://github.com/Cardinalverse/Cardinal",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The Cardinalverse repository is the maintained source for Cardinal.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-maldiquant-code",
+      "entry_id": "maldiquant",
+      "url": "https://github.com/sgibb/MALDIquant",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "CRAN identifies this archived repository as the MALDIquant source repository.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-sputnik-code",
+      "entry_id": "sputnik",
+      "url": "https://github.com/piplus2/SPUTNIK",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The publication's original GitHub URL redirects to the current SPUTNIK repository.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-titan-code",
+      "entry_id": "titan",
+      "url": "https://github.com/mahmoodlab/TITAN",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The paper identifies this repository for TITAN code and model loading.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-virchow-code",
+      "entry_id": "virchow",
+      "url": "https://github.com/Paige-AI/paige-ml-sdk",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "Paige's official SDK supports downstream training with Virchow embeddings.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-virchow2-code",
+      "entry_id": "virchow2",
+      "url": "https://github.com/Paige-AI/paige-ml-sdk",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "Paige's official SDK supports downstream training with Virchow2 embeddings.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-geneformer-code",
+      "entry_id": "geneformer",
+      "url": "https://github.com/epigen/Geneformer",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "The official repository contains Geneformer code and links its model distribution.",
+      "kind": "official_code",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-msireader-distribution",
+      "entry_id": "msireader",
+      "url": "https://msireader.com/",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "MSiReader is distributed from its official product and download site; a separate public source repository is not advertised.",
+      "kind": "official_documentation",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-h-optimus-0-distribution",
+      "entry_id": "h-optimus-0",
+      "url": "https://huggingface.co/bioptimus/H-optimus-0",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "Bioptimus distributes the gated H-optimus-0 checkpoint and usage instructions through its verified Hugging Face organization.",
+      "kind": "official_documentation",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-virchow-distribution",
+      "entry_id": "virchow",
+      "url": "https://huggingface.co/paige-ai/Virchow",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "Paige distributes the gated Virchow checkpoint and model card through Hugging Face.",
+      "kind": "official_documentation",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-virchow2-distribution",
+      "entry_id": "virchow2",
+      "url": "https://huggingface.co/paige-ai/Virchow2",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "Paige distributes the gated Virchow2 checkpoint and model card through Hugging Face.",
+      "kind": "official_documentation",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch015-geneformer-distribution",
+      "entry_id": "geneformer",
+      "url": "https://huggingface.co/ctheodoris/Geneformer",
+      "locator": "Official repository README, package metadata, model card or distribution page",
+      "note": "Geneformer code and pretrained checkpoints are distributed together on Hugging Face.",
+      "kind": "official_documentation",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch016-basic-image",
+      "entry_id": "basic",
+      "url": "https://github.com/marrlab/BaSiC/blob/master/images/usage.png",
+      "locator": "Repository README usage image and license statement",
+      "note": "The BaSiC README displays this usage image and licenses the project under CC BY-NC-ND 4.0.",
+      "kind": "licensed_figure",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch016-cardinal-image",
+      "entry_id": "cardinal",
+      "url": "https://github.com/Cardinalverse/Cardinal/blob/devel/vignettes/Cardinal-class-diagram.png",
+      "locator": "Cardinal package vignette asset and repository license",
+      "note": "The class diagram is distributed in the Cardinal package repository under Artistic License 2.0.",
+      "kind": "licensed_figure",
+      "checked_on": "2026-09-18"
+    },
+    {
+      "id": "batch016-spacec-image",
+      "entry_id": "spacec",
+      "url": "https://www.nature.com/articles/s41467-025-65658-3/figures/1",
+      "locator": "Figure 1 and article Rights and permissions section",
+      "note": "The open-access article includes Figure 1 under CC BY-NC-ND 4.0 and does not identify a separate third-party credit for the figure.",
+      "kind": "licensed_figure",
       "checked_on": "2026-09-18"
     }
   ],
