@@ -1,4 +1,4 @@
-const ATLAS_BASE='';
+const ATLAS_BASE='/spatial-methods-atlas-site';
 'use strict';
 const $=s=>document.querySelector(s), esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const access={direct:'Direct access',gated:'Approval / terms required',unknown:'Unverified',unavailable:'Unavailable',not_applicable:'Not applicable'};
