@@ -1917,6 +1917,94 @@
       "summary_en": "Analyzes metabolite-mediated communication within LIANA; measured and inferred inputs should be distinguished."
     },
     {
+      "id": "santo",
+      "name": "SANTO",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-santo-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "SANTO: a coarse-to-fine alignment and stitching method for spatial omics",
+          "venue": "Nature Communications",
+          "url": "https://doi.org/10.1038/s41467-024-50308-x",
+          "status": "journal",
+          "year": 2024,
+          "published_on": "2024-07-18",
+          "evidence_ids": [
+            "manual-santo-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1038/s41467-024-50308-x",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/leihouyeung/SANTO",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": "MIT",
+        "evidence_ids": [
+          "manual-santo-code"
+        ]
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "recommended",
+          "cpu_support": "unknown",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "The official README exposes a device parameter and recommends cuda:0; no VRAM value is reported.",
+          "evidence_ids": [
+            "manual-santo-code"
+          ]
+        }
+      ],
+      "image": {
+        "status": "approved",
+        "type": "publication_figure",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-024-50308-x/MediaObjects/41467_2024_50308_Fig1_HTML.png",
+        "source_url": "https://www.nature.com/articles/s41467-024-50308-x/figures/1",
+        "rights": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Haoyang Li, Yingxin Lin et al. (2024), Figure 1.",
+        "alt": "SANTO publication Figure 1 showing the coarse-to-fine workflow",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "manual-santo-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "SANTO first estimates global position and overlap, then refines alignment with dynamically updated spatial and omics graphs. The same coarse-to-fine framework handles stitching, cross-platform data, 3D-to-3D alignment, and cross-modality alignment."
+    },
+    {
       "id": "spatialglue",
       "name": "SpatialGlue",
       "aliases": [],
@@ -2337,6 +2425,92 @@
       "summary_en": "Manages and analyzes multimodal, multiresolution spatial data; specific capabilities await verification."
     },
     {
+      "id": "stalign",
+      "name": "STalign",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-stalign-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "STalign: Alignment of spatial transcriptomics data using diffeomorphic metric mapping",
+          "venue": "Nature Communications",
+          "url": "https://doi.org/10.1038/s41467-023-43915-7",
+          "status": "journal",
+          "year": 2023,
+          "published_on": "2023-12-08",
+          "evidence_ids": [
+            "manual-stalign-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1038/s41467-023-43915-7",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/JEFworks-Lab/STalign",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": "GPL-3.0",
+        "evidence_ids": [
+          "manual-stalign-code"
+        ]
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "unknown",
+          "cpu_support": "unknown",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "",
+          "evidence_ids": []
+        }
+      ],
+      "image": {
+        "status": "approved",
+        "type": "publication_figure",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-023-43915-7/MediaObjects/41467_2023_43915_Fig1_HTML.png",
+        "source_url": "https://www.nature.com/articles/s41467-023-43915-7/figures/1",
+        "rights": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Kalen Clifton, Manjari Anant et al. (2023), Figure 1.",
+        "alt": "STalign publication Figure 1 showing its alignment workflow",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "manual-stalign-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "STalign rasterizes spatial cell positions and uses diffeomorphic metric mapping to correct local nonlinear distortions and partially matched tissue sections. It supports alignment across assays, to histology, and into a 3D common coordinate framework."
+    },
+    {
       "id": "giotto-suite",
       "name": "Giotto Suite",
       "aliases": [
@@ -2403,6 +2577,494 @@
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
       "summary_en": "Provides an integrated framework for spatial data organization, analysis and visualization."
+    },
+    {
+      "id": "spacel",
+      "name": "SPACEL",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-spacel-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "SPACEL: deep learning-based characterization of spatial transcriptome architectures",
+          "venue": "Nature Communications",
+          "url": "https://doi.org/10.1038/s41467-023-43220-3",
+          "status": "journal",
+          "year": 2023,
+          "published_on": "2023-11-22",
+          "evidence_ids": [
+            "manual-spacel-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1038/s41467-023-43220-3",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/QuKunLab/SPACEL",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": null,
+        "evidence_ids": []
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "optional",
+          "cpu_support": "documented",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "The official installation supports PyTorch GPU acceleration and explicitly allows CPU-only installation.",
+          "evidence_ids": [
+            "manual-spacel-code"
+          ]
+        }
+      ],
+      "image": {
+        "status": "approved",
+        "type": "publication_figure",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-023-43220-3/MediaObjects/41467_2023_43220_Fig1_HTML.png",
+        "source_url": "https://www.nature.com/articles/s41467-023-43220-3/figures/1",
+        "rights": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Hao Xu, Shuyan Wang et al. (2023), Figure 1.",
+        "alt": "SPACEL publication Figure 1 showing Spoint, Splane, and Scube",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "manual-spacel-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "SPACEL combines three linked modules: Spoint for spot deconvolution, Splane for cross-slice spatial domains, and Scube for coordinate transformation and 3D stacking. Its novelty is an end-to-end framework that connects cell composition, domain integration, and tissue reconstruction."
+    },
+    {
+      "id": "stitch3d",
+      "name": "STitch3D",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-stitch3d-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks",
+          "venue": "Nature Machine Intelligence",
+          "url": "https://doi.org/10.1038/s42256-023-00734-1",
+          "status": "journal",
+          "year": 2023,
+          "published_on": "2023-10-19",
+          "evidence_ids": [
+            "manual-stitch3d-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1038/s42256-023-00734-1",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/YangLabHKUST/STitch3D",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": "MIT",
+        "evidence_ids": [
+          "manual-stitch3d-code"
+        ]
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "unknown",
+          "cpu_support": "unknown",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "",
+          "evidence_ids": []
+        }
+      ],
+      "image": {
+        "status": "approved",
+        "type": "project_illustration",
+        "path": "https://raw.githubusercontent.com/YangLabHKUST/STitch3D/main/demos/Overview.jpg",
+        "source_url": "https://github.com/YangLabHKUST/STitch3D/blob/main/demos/Overview.jpg",
+        "rights": "MIT",
+        "license_url": "https://github.com/YangLabHKUST/STitch3D/blob/main/LICENSE",
+        "attribution": "YangLabHKUST, STitch3D project overview.",
+        "alt": "STitch3D project overview of multislice 3D atlas construction",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "manual-stitch3d-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "STitch3D jointly models multiple spatial transcriptomics slices with a matched single-cell RNA-seq atlas to recover coherent 3D regions and fine-grained cell-type distributions. Its outputs support trajectories, denoising, region-enriched genes, and virtual slices."
+    },
+    {
+      "id": "gpsa",
+      "name": "GPSA",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-gpsa-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "Alignment of spatial genomics data using deep Gaussian processes",
+          "venue": "Nature Methods",
+          "url": "https://doi.org/10.1038/s41592-023-01972-2",
+          "status": "journal",
+          "year": 2023,
+          "published_on": "2023-08-17",
+          "evidence_ids": [
+            "manual-gpsa-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1038/s41592-023-01972-2",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/andrewcharlesjones/spatial-alignment",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": "MIT",
+        "evidence_ids": [
+          "manual-gpsa-code"
+        ]
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "optional",
+          "cpu_support": "documented",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "The official example selects CUDA when available and otherwise runs on CPU.",
+          "evidence_ids": [
+            "manual-gpsa-code"
+          ]
+        }
+      ],
+      "image": {
+        "status": "approved",
+        "type": "publication_figure",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41592-023-01972-2/MediaObjects/41592_2023_1972_Fig1_HTML.png",
+        "source_url": "https://www.nature.com/articles/s41592-023-01972-2/figures/1",
+        "rights": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Andrew Jones et al. (2023), Figure 1.",
+        "alt": "GPSA publication Figure 1 demonstrating nonlinear spatial alignment",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "manual-gpsa-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "GPSA uses a two-layer deep Gaussian process to learn slice-specific nonlinear warps and a shared common coordinate system from spatial phenotypes. The probabilistic model supports de novo or template alignment and joint modeling of genomics and histology readouts."
+    },
+    {
+      "id": "paste2",
+      "name": "PASTE2",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-paste2-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "Partial alignment of multislice spatially resolved transcriptomics data",
+          "venue": "Genome Research",
+          "url": "https://doi.org/10.1101/gr.277670.123",
+          "status": "journal",
+          "year": 2023,
+          "published_on": "2023-08-08",
+          "evidence_ids": [
+            "manual-paste2-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1101/gr.277670.123",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/raphael-group/paste2",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": "BSD-3-Clause",
+        "evidence_ids": [
+          "manual-paste2-code"
+        ]
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "unknown",
+          "cpu_support": "unknown",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "",
+          "evidence_ids": []
+        }
+      ],
+      "image": {
+        "status": "approved",
+        "type": "project_illustration",
+        "path": "https://raw.githubusercontent.com/raphael-group/paste2/main/paste2.png",
+        "source_url": "https://github.com/raphael-group/paste2/blob/main/paste2.png",
+        "rights": "BSD-3-Clause",
+        "license_url": "https://github.com/raphael-group/paste2/blob/main/LICENSE",
+        "attribution": "Raphael Group, PASTE2 project illustration.",
+        "alt": "PASTE2 project illustration showing partial alignment and 3D reconstruction",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "manual-paste2-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "PASTE2 extends optimal-transport alignment to slices with only partial spatial overlap or slice-specific cell types. It estimates the overlap fraction, can incorporate histology, and reconstructs a 3D tissue from partial pairwise alignments."
+    },
+    {
+      "id": "valis",
+      "name": "VALIS",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-valis-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "Virtual alignment of pathology image series for multi-gigapixel whole slide images",
+          "venue": "Nature Communications",
+          "url": "https://doi.org/10.1038/s41467-023-40218-9",
+          "status": "journal",
+          "year": 2023,
+          "published_on": "2023-07-26",
+          "evidence_ids": [
+            "manual-valis-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1038/s41467-023-40218-9",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/MathOnco/valis",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": "MIT",
+        "evidence_ids": [
+          "manual-valis-code"
+        ]
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "unknown",
+          "cpu_support": "unknown",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "",
+          "evidence_ids": []
+        }
+      ],
+      "image": {
+        "status": "approved",
+        "type": "publication_figure",
+        "path": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41467-023-40218-9/MediaObjects/41467_2023_40218_Fig1_HTML.png",
+        "source_url": "https://www.nature.com/articles/s41467-023-40218-9/figures/1",
+        "rights": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Chandler D. Gatenbee et al. (2023), Figure 1.",
+        "alt": "VALIS publication Figure 1 showing a challenging whole-slide registration example",
+        "changes": "Unmodified; scaled to fit.",
+        "evidence_ids": [
+          "manual-valis-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "VALIS provides automated groupwise rigid and non-rigid registration for arbitrarily large brightfield and fluorescence whole-slide image series. It orders slides by visual similarity, supports micro-registration, and writes aligned multiplexed OME-TIFF output."
+    },
+    {
+      "id": "valis-outputs",
+      "name": "VALIS outputs",
+      "aliases": [],
+      "entry_type": "component",
+      "status": "candidate",
+      "primary_section_id": "07.3",
+      "section_ids": [
+        "07.3"
+      ],
+      "summary_evidence_ids": [],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [],
+      "primary_publication_id": null,
+      "links": [],
+      "relations": [
+        {
+          "type": "component_of",
+          "target_id": "valis"
+        }
+      ],
+      "code_license": {
+        "value": null,
+        "evidence_ids": []
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "unknown",
+          "cpu_support": "unknown",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "",
+          "evidence_ids": []
+        }
+      ],
+      "image": {
+        "status": "missing",
+        "path": null,
+        "source_url": null,
+        "rights": null,
+        "alt": null
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-17",
+      "summary_en": "Supports inspection of registration outputs; specific interactive capabilities await review."
     },
     {
       "id": "nnsvg",
@@ -2744,6 +3406,91 @@
       "run_status": "not_tested",
       "updated_on": "2026-09-18",
       "summary_en": "Learns graph representations for spatial analysis."
+    },
+    {
+      "id": "paste",
+      "name": "PASTE",
+      "aliases": [],
+      "entry_type": "method",
+      "status": "curated",
+      "primary_section_id": "01.3",
+      "section_ids": [
+        "01.3"
+      ],
+      "summary_evidence_ids": [
+        "manual-paste-publication"
+      ],
+      "modalities": [],
+      "spatial_usage": "unknown",
+      "input_requirements": [],
+      "outputs": [],
+      "publications": [
+        {
+          "id": "primary",
+          "title": "Alignment and integration of spatial transcriptomics data",
+          "venue": "Nature Methods",
+          "url": "https://doi.org/10.1038/s41592-022-01459-6",
+          "status": "journal",
+          "year": 2022,
+          "published_on": "2022-05-16",
+          "evidence_ids": [
+            "manual-paste-publication"
+          ]
+        }
+      ],
+      "primary_publication_id": "primary",
+      "links": [
+        {
+          "url": "https://doi.org/10.1038/s41592-022-01459-6",
+          "type": "primary_publication",
+          "checked_on": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/raphael-group/paste",
+          "type": "code",
+          "checked_on": "2026-09-18"
+        }
+      ],
+      "relations": [],
+      "code_license": {
+        "value": "BSD-3-Clause",
+        "evidence_ids": [
+          "manual-paste-code"
+        ]
+      },
+      "checkpoints": [],
+      "usage_profiles": [],
+      "compute_profiles": [
+        {
+          "stage": "inference",
+          "checkpoint_id": null,
+          "gpu": "optional",
+          "cpu_support": "documented",
+          "vram_gb": null,
+          "batch_size": null,
+          "precision": null,
+          "input_scale": null,
+          "measurement": "unknown",
+          "note": "The official README documents a CPU workflow and an optional PyTorch GPU backend.",
+          "evidence_ids": [
+            "manual-paste-code"
+          ]
+        }
+      ],
+      "image": {
+        "status": "pending_permission",
+        "type": "publication_figure",
+        "path": null,
+        "source_url": "https://www.nature.com/articles/s41592-022-01459-6/figures/1",
+        "rights": "Publisher reuse permission not established",
+        "alt": "PASTE publication Figure 1 candidate",
+        "evidence_ids": [
+          "manual-paste-image"
+        ]
+      },
+      "run_status": "not_tested",
+      "updated_on": "2026-09-18",
+      "summary_en": "PASTE introduced fused Gromov–Wasserstein optimal transport for aligning adjacent spatial transcriptomics slices from both expression similarity and within-slice geometry. It also builds a stacked 3D alignment or a consensus slice for downstream analysis."
     },
     {
       "id": "decoupler",
@@ -5380,57 +6127,6 @@
       "summary_en": "Combines Giotto and MISTy for spatial multiview dependency analysis."
     },
     {
-      "id": "gpsa",
-      "name": "GPSA",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Uses probabilistic modeling to align spatial coordinates."
-    },
-    {
       "id": "gsva",
       "name": "GSVA",
       "aliases": [
@@ -7991,108 +8687,6 @@
       "summary_en": "Models regulatory networks from multi-omics data."
     },
     {
-      "id": "paste",
-      "name": "PASTE",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Aligns and integrates spatial transcriptomic sections."
-    },
-    {
-      "id": "paste2",
-      "name": "PASTE2",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Aligns partially overlapping spatial transcriptomic sections."
-    },
-    {
       "id": "pciseq",
       "name": "pciSeq",
       "aliases": [],
@@ -8682,57 +9276,6 @@
       "run_status": "not_tested",
       "updated_on": "2026-09-17",
       "summary_en": "Processes and analyzes MSI data."
-    },
-    {
-      "id": "santo",
-      "name": "SANTO",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Aligns and stitches spatial tissue sections."
     },
     {
       "id": "scanpy",
@@ -10199,57 +10742,6 @@
       "summary_en": "Learns spatial representations and continuous tissue states."
     },
     {
-      "id": "spacel",
-      "name": "SPACEL",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Provides multislice spatial analysis and 3D reconstruction; individual modules are tracked separately."
-    },
-    {
       "id": "spacem",
       "name": "SpaceM",
       "aliases": [],
@@ -11596,57 +12088,6 @@
       "summary_en": "Learns spatial representations through graph attention."
     },
     {
-      "id": "stalign",
-      "name": "STalign",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Performs deformable registration of spatial data; distinct from the similarly named ST-Align."
-    },
-    {
       "id": "stardist",
       "name": "StarDist",
       "aliases": [],
@@ -11956,57 +12397,6 @@
       "run_status": "not_tested",
       "updated_on": "2026-09-17",
       "summary_en": "Jointly models a single-cell reference and spatial expression data."
-    },
-    {
-      "id": "stitch3d",
-      "name": "STitch3D",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Integrates multiple sections for 3D spatial analysis."
     },
     {
       "id": "stlearn",
@@ -12824,113 +13214,6 @@
       "run_status": "not_tested",
       "updated_on": "2026-09-17",
       "summary_en": "Performs unsupervised analysis of tissue organization; detailed inputs and outputs await verification."
-    },
-    {
-      "id": "valis",
-      "name": "VALIS",
-      "aliases": [],
-      "entry_type": "method",
-      "status": "candidate",
-      "primary_section_id": "01.3",
-      "section_ids": [
-        "01.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Registers histology and microscopy images."
-    },
-    {
-      "id": "valis-outputs",
-      "name": "VALIS outputs",
-      "aliases": [],
-      "entry_type": "component",
-      "status": "candidate",
-      "primary_section_id": "07.3",
-      "section_ids": [
-        "07.3"
-      ],
-      "summary_evidence_ids": [],
-      "modalities": [],
-      "spatial_usage": "unknown",
-      "input_requirements": [],
-      "outputs": [],
-      "publications": [],
-      "primary_publication_id": null,
-      "links": [],
-      "relations": [
-        {
-          "type": "component_of",
-          "target_id": "valis"
-        }
-      ],
-      "code_license": {
-        "value": null,
-        "evidence_ids": []
-      },
-      "checkpoints": [],
-      "usage_profiles": [],
-      "compute_profiles": [
-        {
-          "stage": "inference",
-          "checkpoint_id": null,
-          "gpu": "unknown",
-          "cpu_support": "unknown",
-          "vram_gb": null,
-          "batch_size": null,
-          "precision": null,
-          "input_scale": null,
-          "measurement": "unknown",
-          "note": "",
-          "evidence_ids": []
-        }
-      ],
-      "image": {
-        "status": "missing",
-        "path": null,
-        "source_url": null,
-        "rights": null,
-        "alt": null
-      },
-      "run_status": "not_tested",
-      "updated_on": "2026-09-17",
-      "summary_en": "Supports inspection of registration outputs; specific interactive capabilities await review."
     },
     {
       "id": "virchow",
@@ -13861,6 +14144,222 @@
       "note": "The publisher states that the article and its figures are licensed under CC BY 4.0 unless separately credited; Figure 1 has no separate exclusion.",
       "kind": "image_license",
       "checked_on": "2026-09-18"
+    },
+    {
+      "id": "manual-paste-publication",
+      "entry_id": "paste",
+      "url": "https://doi.org/10.1038/s41592-022-01459-6",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-paste-code",
+      "entry_id": "paste",
+      "url": "https://github.com/raphael-group/paste",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. The repository identifies the code license as BSD-3-Clause."
+    },
+    {
+      "id": "manual-paste-image",
+      "entry_id": "paste",
+      "url": "https://www.nature.com/articles/s41592-022-01459-6/figures/1",
+      "kind": "image_candidate",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher Figure 1 landing page",
+      "note": "A representative publisher figure was located, but reuse permission was not established; the site retains its functional schematic."
+    },
+    {
+      "id": "manual-paste2-publication",
+      "entry_id": "paste2",
+      "url": "https://doi.org/10.1101/gr.277670.123",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-paste2-code",
+      "entry_id": "paste2",
+      "url": "https://github.com/raphael-group/paste2",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. The repository identifies the code license as BSD-3-Clause."
+    },
+    {
+      "id": "manual-paste2-image",
+      "entry_id": "paste2",
+      "url": "https://github.com/raphael-group/paste2/blob/main/paste2.png",
+      "kind": "image_license",
+      "checked_on": "2026-09-18",
+      "locator": "Source image and its linked article or repository license",
+      "note": "Verified the image source and reuse terms (BSD-3-Clause); the displayed asset is unmodified apart from browser scaling."
+    },
+    {
+      "id": "manual-stalign-publication",
+      "entry_id": "stalign",
+      "url": "https://doi.org/10.1038/s41467-023-43915-7",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-stalign-code",
+      "entry_id": "stalign",
+      "url": "https://github.com/JEFworks-Lab/STalign",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. The repository identifies the code license as GPL-3.0."
+    },
+    {
+      "id": "manual-stalign-image",
+      "entry_id": "stalign",
+      "url": "https://www.nature.com/articles/s41467-023-43915-7/figures/1",
+      "kind": "image_license",
+      "checked_on": "2026-09-18",
+      "locator": "Source image and its linked article or repository license",
+      "note": "Verified the image source and reuse terms (CC BY 4.0); the displayed asset is unmodified apart from browser scaling."
+    },
+    {
+      "id": "manual-valis-publication",
+      "entry_id": "valis",
+      "url": "https://doi.org/10.1038/s41467-023-40218-9",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-valis-code",
+      "entry_id": "valis",
+      "url": "https://github.com/MathOnco/valis",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. The repository identifies the code license as MIT."
+    },
+    {
+      "id": "manual-valis-image",
+      "entry_id": "valis",
+      "url": "https://www.nature.com/articles/s41467-023-40218-9/figures/1",
+      "kind": "image_license",
+      "checked_on": "2026-09-18",
+      "locator": "Source image and its linked article or repository license",
+      "note": "Verified the image source and reuse terms (CC BY 4.0); the displayed asset is unmodified apart from browser scaling."
+    },
+    {
+      "id": "manual-gpsa-publication",
+      "entry_id": "gpsa",
+      "url": "https://doi.org/10.1038/s41592-023-01972-2",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-gpsa-code",
+      "entry_id": "gpsa",
+      "url": "https://github.com/andrewcharlesjones/spatial-alignment",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. The repository identifies the code license as MIT."
+    },
+    {
+      "id": "manual-gpsa-image",
+      "entry_id": "gpsa",
+      "url": "https://www.nature.com/articles/s41592-023-01972-2/figures/1",
+      "kind": "image_license",
+      "checked_on": "2026-09-18",
+      "locator": "Source image and its linked article or repository license",
+      "note": "Verified the image source and reuse terms (CC BY 4.0); the displayed asset is unmodified apart from browser scaling."
+    },
+    {
+      "id": "manual-spacel-publication",
+      "entry_id": "spacel",
+      "url": "https://doi.org/10.1038/s41467-023-43220-3",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-spacel-code",
+      "entry_id": "spacel",
+      "url": "https://github.com/QuKunLab/SPACEL",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. No repository license was asserted in this review."
+    },
+    {
+      "id": "manual-spacel-image",
+      "entry_id": "spacel",
+      "url": "https://www.nature.com/articles/s41467-023-43220-3/figures/1",
+      "kind": "image_license",
+      "checked_on": "2026-09-18",
+      "locator": "Source image and its linked article or repository license",
+      "note": "Verified the image source and reuse terms (CC BY 4.0); the displayed asset is unmodified apart from browser scaling."
+    },
+    {
+      "id": "manual-stitch3d-publication",
+      "entry_id": "stitch3d",
+      "url": "https://doi.org/10.1038/s42256-023-00734-1",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-stitch3d-code",
+      "entry_id": "stitch3d",
+      "url": "https://github.com/YangLabHKUST/STitch3D",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. The repository identifies the code license as MIT."
+    },
+    {
+      "id": "manual-stitch3d-image",
+      "entry_id": "stitch3d",
+      "url": "https://github.com/YangLabHKUST/STitch3D/blob/main/demos/Overview.jpg",
+      "kind": "image_license",
+      "checked_on": "2026-09-18",
+      "locator": "Source image and its linked article or repository license",
+      "note": "Verified the image source and reuse terms (MIT); the displayed asset is unmodified apart from browser scaling."
+    },
+    {
+      "id": "manual-santo-publication",
+      "entry_id": "santo",
+      "url": "https://doi.org/10.1038/s41467-024-50308-x",
+      "kind": "publisher",
+      "checked_on": "2026-09-18",
+      "locator": "Publisher record, abstract, and article metadata",
+      "note": "Verified journal title, venue, online publication date, and the method contribution summarized on this card."
+    },
+    {
+      "id": "manual-santo-code",
+      "entry_id": "santo",
+      "url": "https://github.com/leihouyeung/SANTO",
+      "kind": "official_code",
+      "checked_on": "2026-09-18",
+      "locator": "Repository README and license metadata",
+      "note": "Verified as the official implementation linked by the paper or maintained by its authors. The repository identifies the code license as MIT."
+    },
+    {
+      "id": "manual-santo-image",
+      "entry_id": "santo",
+      "url": "https://www.nature.com/articles/s41467-024-50308-x/figures/1",
+      "kind": "image_license",
+      "checked_on": "2026-09-18",
+      "locator": "Source image and its linked article or repository license",
+      "note": "Verified the image source and reuse terms (CC BY 4.0); the displayed asset is unmodified apart from browser scaling."
     }
   ],
   "section_entries": {
@@ -13889,14 +14388,14 @@
       "stardist"
     ],
     "01.3": [
-      "gpsa",
-      "paste",
-      "paste2",
       "santo",
-      "spacel",
       "stalign",
+      "spacel",
       "stitch3d",
-      "valis"
+      "gpsa",
+      "paste2",
+      "valis",
+      "paste"
     ],
     "01.4": [
       "nicheformer",
@@ -14111,11 +14610,11 @@
       "vitessce"
     ],
     "07.3": [
+      "valis-outputs",
       "baysor-reports",
       "napari",
       "napari-spatialdata",
-      "qupath",
-      "valis-outputs"
+      "qupath"
     ],
     "07.4": [
       "sopa-reports",
