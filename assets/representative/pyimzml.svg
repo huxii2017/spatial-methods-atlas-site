@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">pyimzML functional workflow</title>
+  <desc id="desc">An imzML metadata file and an ibd binary file are parsed by pyimzML into coordinates, spectra, and ion images.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#f7f9ff"/><stop offset="1" stop-color="#edf1fb"/></linearGradient>
+    <linearGradient id="core" x1="0" x2="1"><stop stop-color="#3f5bd8"/><stop offset="1" stop-color="#6f45b5"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#6c7890"/></marker>
+  </defs>
+  <rect width="1200" height="620" rx="34" fill="#fff"/>
+  <text x="60" y="72" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#182238">pyimzML</text>
+  <text x="60" y="112" font-family="Arial, sans-serif" font-size="22" fill="#63708a">Python parser for the imzML 1.1 mass spectrometry imaging format</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="65" y="190" width="230" height="125" rx="18" fill="url(#panel)" stroke="#bcc6dc" stroke-width="3"/>
+    <text x="180" y="238" text-anchor="middle" font-size="30" font-weight="700" fill="#27334c">.imzML</text>
+    <text x="180" y="274" text-anchor="middle" font-size="19" fill="#68758d">XML metadata</text>
+    <rect x="65" y="350" width="230" height="125" rx="18" fill="url(#panel)" stroke="#bcc6dc" stroke-width="3"/>
+    <text x="180" y="398" text-anchor="middle" font-size="30" font-weight="700" fill="#27334c">.ibd</text>
+    <text x="180" y="434" text-anchor="middle" font-size="19" fill="#68758d">binary spectra</text>
+    <path d="M305 252H430" stroke="#6c7890" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M305 412H430" stroke="#6c7890" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="455" y="220" width="290" height="225" rx="28" fill="url(#core)"/>
+    <text x="600" y="305" text-anchor="middle" font-size="36" font-weight="700" fill="#fff">ImzMLParser</text>
+    <text x="600" y="350" text-anchor="middle" font-size="21" fill="#e8ebff">indexed, on-demand access</text>
+    <text x="600" y="386" text-anchor="middle" font-size="21" fill="#e8ebff">to MSI pixels and spectra</text>
+    <path d="M755 332H855" stroke="#6c7890" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="880" y="165" width="255" height="110" rx="18" fill="url(#panel)" stroke="#bcc6dc" stroke-width="3"/>
+    <text x="1008" y="210" text-anchor="middle" font-size="27" font-weight="700" fill="#27334c">Coordinates</text>
+    <text x="1008" y="244" text-anchor="middle" font-size="18" fill="#68758d">x, y, z pixel positions</text>
+    <rect x="880" y="300" width="255" height="110" rx="18" fill="url(#panel)" stroke="#bcc6dc" stroke-width="3"/>
+    <text x="1008" y="345" text-anchor="middle" font-size="27" font-weight="700" fill="#27334c">Spectra</text>
+    <text x="1008" y="379" text-anchor="middle" font-size="18" fill="#68758d">m/z and intensity arrays</text>
+    <rect x="880" y="435" width="255" height="110" rx="18" fill="url(#panel)" stroke="#bcc6dc" stroke-width="3"/>
+    <text x="1008" y="480" text-anchor="middle" font-size="27" font-weight="700" fill="#27334c">Ion images</text>
+    <text x="1008" y="514" text-anchor="middle" font-size="18" fill="#68758d">spatial molecular maps</text>
+  </g>
+</svg>
